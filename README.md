@@ -4,8 +4,7 @@
 `TODO://` This app displays a message inputted by the user. You can change the background color or text color of the message.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
+`TODO://` 
 <img src="https://i.imgur.com/4Tujm2q.gif" width=200><br>
 
 ### Required User Stories
