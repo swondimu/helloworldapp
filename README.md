@@ -1,7 +1,7 @@
 ## Hello World App
 
 ### App Description
-`TODO://` This app displays a message inputted by the user. You can change the background color or text color of the message.
+`TODO://` This app displays a message inputted by the user. The user can change the background color or text color of the message.
 
 ### App Walk-though
 `TODO://` 
