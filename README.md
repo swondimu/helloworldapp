@@ -1,38 +1,24 @@
-# helloworldapp
+## Hello World App
 
-import UIKit
+### App Description
+`TODO://` This app displays a message inputted by the user. You can change the background color or text color of the message.
 
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var textField: UITextField!
-    @IBOutlet weak var textHello: UILabel!
-    
-    var backgroundColor: UIColor!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        backgroundColor = view.backgroundColor
-    }
+### App Walk-though
+`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-    @IBAction func didTapButton(_ sender: Any) {
-        textHello.textColor = UIColor.orange
-    }
-    @IBAction func didTapViewButton(_ sender: Any) {
-        view.backgroundColor = UIColor.purple
-        
-    }
-    @IBAction func didTapTextButton(_ sender: Any) {
-        //textHello.text = "Goodbye!"
-        textHello.text = textField.text
-        view.endEditing(true)
-    
-    }
-   
-    @IBAction func didTapResetButton(_ sender: Any) {
-        textHello.text = "Hello"
-        textHello.textColor = UIColor.black
-        view.backgroundColor = backgroundColor
-    }
-    
-}
+<img src="https://i.imgur.com/4Tujm2q.gifv" width=200><br>
 
+### Required User Stories
+- [x] 1. User sees custom text in a label - Hello from {name}!
+- [x] 2. User see's custom background color.
+- [x] 3. User can tap a button to change the text color of the label.
+
+### Optional User Stories
+- [x] 1. User can tap a button to change the color of the background view.
+- [x] 2. User can tap a button to change the text string of the label - Goodbye 👋.
+- [x] 3. User can tap on the background view to reset all views to default settings.
+- [x] 4. User can update the label text with custom text entered into the text field.
+   - [x] a. User can enter text into a text field using the keyboard.
+   - [x] b. User can tap the "Change text string" button to update the label with the text from the text field.
+   - [ ] c. If the text field is empty, update label with default text string.
+   - [ ] d. The keyboard is dismissed after the button has been tapped.
